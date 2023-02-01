@@ -1,0 +1,25 @@
+*{
+    background-color:rgb(20, 20, 32)
+}
+/* ____________________________________________________________________ */
+.navbar{
+    display: flex;
+    justify-content: end;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* ____________________________________________________________________ */
+a{
+    color: aliceblue;
+    padding: 7px;
+    text-decoration: none;
+}
+/* ____________________________________________________________________ */
+.nums{
+    color: aquamarine;
+}
+/* _____________________________________________________________________ */
+#icon{
+    color: aliceblue;
+    display: flex;
+    justify-content: left;
+}
