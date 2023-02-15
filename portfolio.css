@@ -1,25 +1,401 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+/* ________________________________________________________ */
 *{
-    background-color:rgb(20, 20, 32)
+    background-color:rgb(20, 20, 32);
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
 }
 /* ____________________________________________________________________ */
 .navbar{
     display: flex;
     justify-content: end;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Fragment Mono', monospace;
 }
 /* ____________________________________________________________________ */
-a{
-    color: aliceblue;
+.a1{
+    color: rgb(216, 218, 250);
     padding: 7px;
     text-decoration: none;
+    transition: ease-out 0.5s;
+
 }
+
+.a1:hover{
+ 
+    font-weight: bold;
+    font-size: 20px;
+    transition: ease-out 0.5s;
+
+}
+
+/* .a1{
+    color: rgb(216, 218, 250);
+    padding: 7px;
+    text-decoration: none;
+    transition: ease-out 0.5s;
+
+}
+
+.a1:hover{
+ 
+    font-weight: bold;
+    font-size: 20px;
+    transition: ease-out 0.5s;
+
+} */
+
+
+/* .a1:before{
+    transition: o.5s all ease;
+} */
+/* _______________________________________________________ */
+ 
+
 /* ____________________________________________________________________ */
 .nums{
     color: aquamarine;
 }
+/* __________________________________________________________ */
+#button1{
+    color: aquamarine;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+
+
+    
+}
 /* _____________________________________________________________________ */
-#icon{
-    color: aliceblue;
+.icon1{
+    color: aquamarine;
+    border: 2px;
+    border-style: solid;
+    border-radius: 100px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 25px;
+    animation-name: iconanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+    
+}
+
+
+@keyframes iconanimation {
+    0%   {color: aquamarine ; left:0px; top:0px;}
+    25%  {color:rgb(54, 225, 255); left:200px; top:0px;}
+    50%  {color:lightgoldenrodyellow; left:200px; top:200px;}
+    75%  {color:magenta; left:0px; top:200px;}
+    100% {color:aquamarine; left:0px; top:0px;}
+  }
+  
+/* __________________________________________________________________________________ */
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 125px;
+    
+}
+/* ________________________________________________________________________________________________ */
+#subheading{
+    color: aquamarine;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Fragment Mono', monospace;
+
+}
+/* __________________________________________________________________ */
+#heading1{
+    color: rgb(216, 218, 250);
+    font-size: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Fragment Mono', monospace;}
+/* _______________________________________________________________ */
+.main_title{
+    margin-left: 275px ;
+    margin-top: 50px;
+
+}
+/* ________________________________________________________________ */
+#heading2{
+    color: rgb(125, 128, 177);
+    font-family: 'Fragment Mono', monospace; 
+    font-size: 70px;
+}
+/* _________________________________________________________________ */
+#para1{
+    color: rgb(125, 128, 177);
+    font-family: 'Fragment Mono', monospace;
+    font-size: 18px;
+    margin-right: 600px; 
+    margin-bottom: 80px; 
+
+}
+/* _________________________________________________________________ */
+#codenationlink{
+    transition: ease-out 0.5s;
+    color: aquamarine;
+    font-family: 'Fragment Mono', monospace;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+#codenationlink:hover{
+    transition: ease-out 0.5s;
+    color: cornsilk;
+    font-size: 20px;
+}
+/* ____________________________________________________________ */
+.courselink{
+    color: aquamarine;
+    font-family: 'Fragment Mono', monospace;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    transition: ease-out 0.5s;
+}
+
+.courselink:hover{
+    
+    font-size: 25px;
+    transition: ease-out 0.5s;
+    border: 1px;
+    border-style: dashed;
+    border-radius: 10px;
+
+
+}
+
+/* PAGE 2___________________________________________________ */
+/* .page2text{
+    margin-left: 200px;
+} */
+
+#subtitle{
+    margin-top: 30px;
+
+    margin-left: 30px;
+    color: aquamarine;
+    font-family: 'Fragment Mono', monospace;
+    display: flex;
+    justify-content:flex-start;
+
+}
+
+#subtitle2{
+    margin-top: 30px;
+
+    margin-right: 30px;
+    color: aquamarine;
+    font-family: 'Fragment Mono', monospace;
+    display: flex;
+    justify-content:flex-end;
+
+}
+
+.aboutme{
+    margin-left: 30px;
+    font-size:70px;
+    font-family: 'Fragment Mono', monospace;
+    color: rgb(216, 218, 250);
+    margin-bottom: 0px;
+
+}
+
+.aboutme2{
+    margin-left: 30px;
+    margin-bottom: 100px;
+    font-size:70px;
+    font-family: 'Fragment Mono', monospace;
+    color: rgb(125, 128, 177);
+
+
+}
+
+#page1txt{
+    color: rgb(216, 218, 250);
+    font-family: 'Fragment Mono', monospace;
+    text-align: left;
+    margin-right: 0px;
+
+}
+
+.page1container{
+    margin-left: 50px;
     display: flex;
     justify-content: left;
+    flex-direction: column;
+}
+
+.images{
+    width: 500px;
+    transition: ease-out 0.5s;
+
+}
+
+.images:hover{
+ width:750px;
+transition: ease-out 0.5s;
+
+}
+
+
+
+
+/* #page1body{
+    margin-right: 250px;
+} */
+/* ______PAGE 3______________________________________________________________________ */
+
+.page3div{
+    font-family: 'Fragment Mono', monospace;
+    color: rgb(216, 218, 250);
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.div1{
+    border: 1.5px;
+    border-style: solid;
+    color: rgb(216, 218, 250);
+    border-radius: 5px;
+    padding: 150px;
+}
+
+.div2{
+    border: 1px;
+    border-style: solid;
+    color: rgb(216, 218, 250);
+    border-radius: 5px;
+    padding: 150px;
+}
+/* .div3{
+    border: 1px;
+    border-style: solid;
+    color: rgb(216, 218, 250);
+    border-radius: 5px;
+    padding: 100px;
+    margin-left: 19px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+} */
+
+.subheadings{
+color: aquamarine;
+border: 1px;
+border-style: solid;
+border-radius: 5px;
+transition: ease-out 0.5s;
+padding: 15px;
+font-family: 'Fragment Mono', monospace;
+text-decoration: none;
+
+}
+
+.subheadings:hover{
+    font-size: 25px;
+    transition: ease-out 0.5s;
+    border: 1px;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+#headings1{
+    color: rgb(216, 218, 250);
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Fragment Mono', monospace;
+    text-decoration: none;
+
+}
+
+.page3body{
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.nav_container2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;}
+
+.guardian1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.guardian2{
+    display: flex;
+flex-direction: row-reverse; 
+   align-items: center;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.logos{
+    display: flex;
+    justify-content: row;
+}
+
+#headinglinks{
+    color: rgb(216, 218, 250);
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Fragment Mono', monospace;
+    text-decoration: none;
+
+    
+}
+
+#headinglinks:visited{
+    text-decoration: none;
+}
+
+a{ text-decoration: none;
+    color: rgb(216, 218, 250);
+
+}
+
+a:visited{text-decoration: none;
+    color: rgb(216, 218, 250);
+}
+
+a:hover{
+    color: antiquewhite;
+    
+}
+
+#page1button{
+    color: aquamarine;
+}
+
+#page1button:hover{
+    color: lightgoldenrodyellow;
 }
